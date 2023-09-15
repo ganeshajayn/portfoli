@@ -1546,4 +1546,8 @@ blockquote {
     display: inline-block;
     margin-right: 0;
   }
+}.photo{
+  height: 550px;
+  width:400px
+
 }
