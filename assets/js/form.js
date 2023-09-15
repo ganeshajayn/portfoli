@@ -102,8 +102,8 @@ function validateName()
         email:document.getElementById("email").value,
         message:document.getElementById("message").value
       };
-      const serviceID ="service_e6lqlds";
-      const templateID ="template_6mqldvc";
+      const serviceID ="service_mnftm1e";
+      const templateID ="template_oz5anfr";
       emailjs.send(serviceID,templateID,params).then(res=>
         {
         document.getElementById("name").value="";
@@ -112,5 +112,5 @@ function validateName()
         console.log(res);
         alert("your message sent successfully");
       }).catch((err)=>console.log(err));
-     }
+    }
 }
